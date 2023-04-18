@@ -1,2 +1,13 @@
-rootProject.name = 'git_tags'
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "com.glovoapp.gradle:gradle-versioning-plugin:1.1.10"
+    }
+}
 
+
+rootProject.name = 'git_tags'
